@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shruti Portfolio</title>
+    <link rel="icon" href="./assets/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="icon" href="./assets/logo-modified.png" /> -->
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Shruti Kolpyakwar</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-button">About</a></li>
+          <li><a href="#skills" class="nav-button">Skills</a></li>
+          <li><a href="#projects" class="nav-button">Projects</a></li>
+          <li><a href="#certification" class="nav-button">Certifications</a></li>
+          <li><a href="#achievement" class="nav-button">Achievement</a></li> <!-- This goes to your certification section -->
+          <li><a href="#contact" class="nav-button">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <!-- <nav id="hamburger-nav">
+      <div class="logo">Abhishek Raut</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#certificate" onclick="toggleMenu()">Certifications</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav> -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img style="border-radius: 200px;" src="./assets/shruti1.jpg" alt="Shruti Kolpyakwar profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Shruti Kolpyakwar</h1>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-1"
+            onclick="window.open('./assets/Professional_Resume_for_Former_Academic (11).pdf')"
+          >
+            Resume
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a href="https://www.linkedin.com/in/shruti-kolpyakwar-18a231262/" target="_blank">
+            <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            />
+          </a>
+          <a href="https://github.com/ShrutiKolpyakwar?tab=repositories" target="_blank">
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            />
+          </a>
+          </div>
+      </div>
+    </section>
+    <section id="about";">
+      <div class="section-container">
+        <!-- <div class="section__pic-container">
+          <img
+          src="./assets/about-pic.png"
+          alt="Profile picture"
+          class="about-pic"
+          />
+        </div> -->
+        <div class="about-details-container">
+          <p class="section__text__p1">Get To Know More</p>
+          <h1 class="title">About Me</h1>
+          <!-- <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/skills.png"
+                alt="Skills icon" skills
+                class="icon"
+              />
+              <h3>Skills</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+            </div>
+          </div> -->
+          <div class="text-container" style="margin-top: 70px;">
+            <p>
+              Hi there, I'm Shruti Kolpyakwar, a passionate Computer Science and Engineering student currently in third year of my Bachleors Degree at Shri Sant Gajanan Maharaj College of Engineering, Shegaon.
+
+              With a strong foundation in Python programming, Data Science , I am dedicated to transforming complex problems into innovative solutions. Skilled in libraries such as NumPy, Pandas, Matplotlib, Seaborn, and frameworks like Django, along with proficiency in SQL, Machine Learning, and Data Visualization tools, I am excited to collaborate, learn, and contribute meaningfully to the dynamic world of technology.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      /> -->
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="Skills-details-container">
+        <div class="about-containers">
+          <!-- <div class="details-container">
+            <h2 class="Skills-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Skills</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Skillsd</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div> -->
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                  src="./assets/html.png"
+                  alt="html icon"
+                  width="80" height="80"
+                />
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                  src="./assets/css.png"
+                  alt="CSS icon"
+                  width="80" height="80"
+                />
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                  src="./assets/python.png"
+                  alt="PYTHON icon"
+                  width="80" height="80"
+                />
+                  <h3>PYTHON</h3>
+                </div>
+              </article>
+
+              <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                  src="./assets/numpy.png"
+                  alt="NUMPY icon"
+                  width="80" height="80"
+                />
+                  <h3>NUMPY</h3>
+                </div>
+              </article>
+              <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                  src="./assets/pandas.png"
+                  alt="PANDAS icon"
+                  width="80" height="80"
+                />
+                  <h3>PANDAS</h3>
+                </div>
+              </article>
+              <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                  src="./assets/matplotlib.png"
+                  alt="MATPLOTLIB icon"
+                  width="80" height="80"
+                />
+                  <h3>MATPLOTLIB</h3>
+                </div>
+              </article>
+              <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                  src="./assets/seaborn.png"
+                  alt="SEABORN icon"
+                  width="80" height="80"
+                />
+                  <h3>SEABORN</h3>
+                </div>
+              </article>
+      
+              <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                style="border-radius: 30px;"
+                  src="./assets/sql.webp"
+                  alt="SQL icon"
+                  width="80" height="80"
+                />
+                  <h3>SQL</h3>
+                </div>
+              </article>
+              <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                  src="./assets/django.png"
+                  alt="DJANGO icon"
+                  width="80" height="80"
+                />
+                  <h3>DJANGO</h3>
+                </div>
+              </article>
+
+              <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                  src="./assets/machine learning.png"
+                  alt="MACHINE LEARNING icon"
+                  width="80" height="80"
+                />
+                  <h3>MACHINE LEARNING</h3>
+                </div>
+              </article>
+              
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      /> -->
+    </section>
+    <section id="projects" style="padding-top: 8rem;">
+      <p class="section__text__p1">Browse My</p>
+      <h1 class="title">Projects</h1>
+      <div class="Skills-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/receipe.png"
+                alt="Receipe Management System"
+                class="project-img"
+              />
+            </div>
+            <h2 class="Skills-sub-title project-title">Receipe Management System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/ShrutiKolpyakwar/Receipe')"
+                >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Sport.png.jpg"
+                alt="Sport Analytics Platform"
+                class="project-img"
+              />
+            </div>
+            <h2 class="Skills-sub-title project-title">Sport Analytics Platform</h2>
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/ShrutiKolpyakwar/Sport-Analytics-Platform')"
+              >
+              Github
+            </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+              style="margin-bottom: 14px;"
+                src="./assets/web.jpg"
+                alt="Ecosoul Ecommerse Website"
+                class="project-img"
+              />
+            </div>
+            <h2 class="Skills-sub-title project-title">Ecommerse Website</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/ShrutiKolpyakwar/E-Commersewebsite')"
+                >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      /> -->
+    </section>
+
+    <section id="certification" class="certification">
+      <div class="certification-container">
+        <p>Explore My</p>
+        <h1 class="title">Certifications</h1>
+    
+        <div class="certification-section">
+          <!-- Certification 1 -->
+          <div class="certification-card">
+            <h3>IBM Data Science</h3>
+            <p><strong>Issued By:</strong> IBM Coursera</p>
+            <p><strong>Completion Year:</strong> 2025</p>
+            <a href="assets/Data.pdf" class="view-button" target="_blank">View Certificate</a>
+          </div>
+    
+          <!-- Certification 2 -->
+          <div class="certification-card">
+            <h3>Python For Data Science and AI</h3>
+            <p><strong>Issued By:</strong> IBM Coursera</p>
+            <p><strong>Completion Year:</strong> 2025</p>
+            <a href="assets/Coursera ELNLLWUFD1D4.pdf" class="view-button" target="_blank">View Certificate</a>
+          </div>
+    
+          <!-- Certification 3 -->
+          <div class="certification-card">
+            <h3>Introduction To Data Science</h3>
+            <p><strong>Issued By:</strong> IBM Coursera</p>
+            <p><strong>Completion Year:</strong> 2024</p>
+            <a href="assets/Coursera SWNLOV7SH3CK.pdf" class="view-button" target="_blank">View Certificate</a>
+          </div>
+    
+          <!-- Certification 4 -->
+          <div class="certification-card">
+            <h3>Hackathon</h3>
+            <p><strong>Issued By:</strong>Innovo</p>
+            <p><strong>Completion Year:</strong> 2025</p>
+            <a href="assets/hackathon.png" class="view-button" target="_blank">View Certificate</a>
+          </div>
+    
+          <!-- Certification 5 -->
+          <div class="certification-card">
+            <h3>FLY Program</h3>
+            <p><strong>Issued By:</strong> Foundation For Excellence </p>
+            <p><strong>Completion Year:</strong> 2024</p>
+            <a href="assets/fly.jpg" class="view-button" target="_blank">View Certificate</a>
+          </div>
+    
+          <!-- Certification 6 -->
+          <div class="certification-card">
+            <h3>JavaScript</h3>
+            <p><strong>Issued By:</strong> IT Skill Enhancement</p>
+            <p><strong>Completion Year:</strong> 2024</p>
+            <a href="assets/javascript.jpg" class="view-button" target="_blank">View Certificate</a>
+          </div>
+    
+        </div>
+      </div>
+
+      
+      <section id="achievement" class="achievement">
+        <p class="explore-text">Explore My</p>
+        <h1 class="title">Achievements</h1>
+        <!-- Achievement Cards will go here -->      
+          
+      <div class="details-container achievement-container">
+        <div class="achievement-card">
+          <div class="achievement-img-container">
+            <img
+              src="./assets/award1.png" 
+              alt="Scholarship Award"
+              class="achievement-img"
+            />
+          </div>
+          <h2 class="achievement-title">Awarded Scholarship from Foundation For Excellence</h2>
+          <p class="achievement-description">
+            I was honored with a scholarship from the Foundation For Excellence for my outstanding academic performance.
+          </p>
+        </div>
+      
+        <div class="achievement-card">
+          <div class="achievement-img-container">
+            <img
+              src="./assets/art.jpg" <!-- Replace with image related to artwork -->
+              alt="Artwork Featured"
+              class="achievement-img"
+            />
+          </div>
+          <h2 class="achievement-title">Artwork Featured in Tatwadarshi Magazine</h2>
+          <p class="achievement-description">
+            My artwork was featured in the prestigious Tatwadarshi Magazine, a great achievement in my artistic journey.
+          </p>
+        </div>
+      </div>
+    </section>
+      
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:shrutikolpyakwar@gmail.com">shrutikolpyakwar@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/shruti-kolpyakwar-18a231262/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a class="nav-contact" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2026 Shruti Kolpyakwar. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
